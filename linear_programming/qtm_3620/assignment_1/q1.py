@@ -1,4 +1,4 @@
-# QTM3620 Assignment 1 Created by Professor Zafari
+# QTM3620 Assignment 1 Question 1 Created by Professor Zafari
 # Based on instructions in "Linear Programming using Python" by Priyansh Soni
 # https://towardsdatascience.com/linear-programming-using-python-priyansh-22b5ee888fe0
 
@@ -44,7 +44,7 @@ coefficients_obj_func = np.array([3, 2])
 rhs_constraints = np.array([300, 480, 480])
 
 # Model initialization
-model = LpProblem('question-1-assignment-1', LpMaximize)
+model = LpProblem('q1', LpMaximize)
 
 # Define variable names
 variable_names = [str(i) for i in range(1, n_dv + 1)]
@@ -128,7 +128,7 @@ model += c_third_const[0] * allocation[0][0] + c_third_const[1] * allocation[0][
 # print(model)
 
 # Export the model description
-# model.writeLP('question-1-assignment-1.lp')
+# model.writeLP('q1.lp')
 
 # Run the model and check status
 model.solve(PULP_CBC_CMD())
