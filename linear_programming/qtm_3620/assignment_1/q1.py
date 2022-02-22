@@ -1,6 +1,15 @@
-# QTM3620 Assignment 1 Question 1 Created by Professor Zafari
+# QTM3620 Assignment 1 Question 1 
 # Based on instructions in "Linear Programming using Python" by Priyansh Soni
 # https://towardsdatascience.com/linear-programming-using-python-priyansh-22b5ee888fe0
+
+# import webbrowser module
+import webbrowser
+
+# URL from which I base this linear programming on!
+url = "https://towardsdatascience.com/linear-programming-using-python-priyansh-22b5ee888fe0"
+
+# Open the url
+# webbrowser.open(url)
 
 """
 Question 1: [30 points] Consider the following LP problem.
