@@ -135,5 +135,18 @@ model.solve(PULP_CBC_CMD())
 
 status = LpStatus[model.status]
 
-
 print(status)
+
+# Output the objective function value and decision variables value
+
+# Objective function
+print('Total Cost:', model.objective.value())
+
+# Decision variables
+# alt + ¥ for \
+
+for v in model.variables():
+    try:
+        print(v.name, '=', v.value())
+    except:
+        print('Error: Couldn\'t Find Value')
