@@ -1,4 +1,4 @@
-# QTM3620 Assignment 1 Question 1 
+# QTM3620 Assignment 1 Question 1
 # Based on instructions in "Linear Programming using Python" by Priyansh Soni
 # https://towardsdatascience.com/linear-programming-using-python-priyansh-22b5ee888fe0
 
@@ -9,7 +9,12 @@ import webbrowser
 url = "https://towardsdatascience.com/linear-programming-using-python-priyansh-22b5ee888fe0"
 
 # Open the url
-# webbrowser.open(url)
+user_input = input("Open the LP website? >>> ")
+
+if user_input == 'Yes' or user_input == 'yes':
+    webbrowser.open(url)
+else:
+    pass
 
 """
 Question 1: [30 points] Consider the following LP problem.
