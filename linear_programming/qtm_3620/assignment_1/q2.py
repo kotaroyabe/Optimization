@@ -18,3 +18,6 @@ a. Determine the decision variables and formulate an LP model for this problem.
 b. Sketch the feasible region and show the level curve(s).
 c. Determine  the  optimal  solution  and  the  optimal  objective  value  based  on  the  graph  (No Excel solution should be submitted)
 """
+
+# Objective function
+# Max: 
