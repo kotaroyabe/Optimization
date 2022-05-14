@@ -29,6 +29,7 @@ a. Sketch the feasible region for this problem and show the level curve(s).
 b. Determine  the  optimal  solution  and  the  optimal  objective  value  based  on  the  graph  (
 No Excel solution should be submitted)
 """
+# Test for github
 
 # Objective function: Max: 3x_1 + 2x_2
 
